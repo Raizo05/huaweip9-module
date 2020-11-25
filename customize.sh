@@ -58,6 +58,21 @@ set_permissions() {
   # set_perm $MODPATH/system/lib/libart.so 0 0 0644
   # set_perm /data/local/tmp/file.txt 0 0 644
   set_perm_recursive $MODPATH/system/app/NfcNci 000
+  set_perm $MODPATH/system/bin/hw/vendor.huawei.hardware.graphics.displayeffect@1.0-service 755
+  set_perm $MODPATH/system/bin/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-service 755
+  set_perm $MODPATH/system/etc/init/vendor.huawei.hardware.graphics.mediacomm@2.0-service.rc 644
+  set_perm $MODPATH/system/lib/vendor.huawei.hardware.graphics.displayeffect@1.0.so 644
+  set_perm $MODPATH/system/lib/vendor.huawei.hardware.graphics.gpucommon@1.0.so 644
+  set_perm $MODPATH/system/lib/vendor.huawei.hardware.graphics.mediacomm@2.0.so 644
+  set_perm $MODPATH/system/lib/hw/hwcomposer.hi3650.so 644
+  set_perm $MODPATH/system/lib/hw/vendor.huawei.hardware.graphics.displayeffect@1.0-impl.so 644
+  set_perm $MODPATH/system/lib/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-impl.so 644
+  set_perm $MODPATH/system/lib64/vendor.huawei.hardware.graphics.displayeffect@1.0.so 644
+  set_perm $MODPATH/system/lib64/vendor.huawei.hardware.graphics.gpucommon@1.0.so 644
+  set_perm $MODPATH/system/lib64/vendor.huawei.hardware.graphics.mediacomm@2.0.so 644
+  set_perm $MODPATH/system/lib64/hw/hwcomposer.hi3650.so 644
+  set_perm $MODPATH/system/lib64/hw/vendor.huawei.hardware.graphics.displayeffect@1.0-impl.so 644
+  set_perm $MODPATH/system/lib64/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-impl.so 644
 }
 
 ##########################################################################################
